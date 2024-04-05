@@ -1,0 +1,67 @@
+section p {
+    color: rgb(244, 251, 39);
+ } 
+.vacationImage{
+    height: 200px;
+    width: 300px;
+    /* border: 50px dashed; border-color: orangered ; */
+    border: 50px solid; border-color: orangered ;
+
+    padding: 20px;
+    margin: 10px;
+    padding-left: 30px;  
+}
+.container {
+    background-color: teal;
+}
+
+/* Here, h1 is an element*/
+h1, .text {
+    color: purple;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border: 2px solid orangered;
+    
+}
+
+td {
+    border: 2px solid black; 
+}
+
+tr {
+    border: 2px solid purple;
+}
+
+th {
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+thead{
+    background-color: #0da2af;
+    color: #4b0a88
+}
+
+tfoot{
+    background-color: #6cc6ce;
+    color: #4b0a88
+}
+
+
+
+td:hover{
+    background-color: orange ;
+    color:aliceblue
+}
+
+/* This is an element*/
+button {
+    background-color: yellow;
+
+}
