@@ -1,6 +1,10 @@
+
+
 section p {
     color: rgb(244, 251, 39);
  } 
+
+
 .vacationImage{
     height: 200px;
     width: 300px;
@@ -65,3 +69,75 @@ button {
     background-color: yellow;
 
 }
+
+ul {
+    /* margin-left: -400px; (I tried this line of code first. When I added the line below, the unordered list moved center, without the bullets, as desired.*/
+    margin: 0; padding: 0;
+}
+
+/* section {
+    color: rgb(219, 188, 9);
+    
+} */
+
+
+
+/* This code is for the image container. All three photos are styled together. */
+.image-container {
+    display: inline-block;
+    width: 175px; /* Adjust width as needed. I had to adjust this from 200 to 175 because there was and extra space between image 1 and 2. */
+    height: 200px; /* Fixed height for image container */
+    text-align: center; /* Center align image and text */
+    overflow: hidden; /* Ensure that overflowing content is hidden */
+}
+
+.foodImage,
+.playImage,
+.adventureImage {
+    max-width: 100%; /* Ensure image fits within container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+.windowImage {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+.sandybeachesImage {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+.suiteImage {
+    width: 5px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+.safariImage {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.sailingImage {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.sightseeingImage {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
